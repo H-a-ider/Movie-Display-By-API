@@ -173,7 +173,7 @@ button {
     header h4 {
         margin-top: 20%;
         margin-bottom: 6%;
-        margin-left: 25%;
+        margin-left: 20%;
         white-space: nowrap;
     
     }
@@ -218,6 +218,7 @@ button {
     #movie-data{
         display: flex;
         margin-top: 20%;
+        gap: 2%;
     
     }
     
@@ -277,6 +278,7 @@ button {
     #message h1{
         margin-top: 15%;
         color: #DFDDDD;
+        margin-left: 5%;
     
     }
     
@@ -291,7 +293,7 @@ button {
     }
     
     #message h2{
-        margin-left: 2%;
+        margin-left: 5%;
         white-space: nowrap;
         color: #363636;
     }
