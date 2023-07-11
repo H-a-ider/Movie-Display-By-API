@@ -173,7 +173,7 @@ button {
     header h4 {
         margin-top: 20%;
         margin-bottom: 6%;
-        margin-left: 20%;
+        margin-left: 18%;
         white-space: nowrap;
     
     }
@@ -202,6 +202,7 @@ button {
     #render-movies{
         display: flex;
         flex-direction: column;
+        gap: 2%;
     }
     
     #poster img{
@@ -218,7 +219,7 @@ button {
     #movie-data{
         display: flex;
         margin-top: 20%;
-        gap: 2%;
+        justify-content: space-between;
     
     }
     
