@@ -202,7 +202,7 @@ button {
     #render-movies{
         display: flex;
         flex-direction: column;
-        gap: 2%;
+        justify-content:space-between ;
     }
     
     #poster img{
