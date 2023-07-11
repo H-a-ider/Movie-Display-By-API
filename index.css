@@ -173,7 +173,7 @@ button {
     header h4 {
         margin-top: 20%;
         margin-bottom: 6%;
-        margin-left: 30%;
+        margin-left: 25%;
         white-space: nowrap;
     
     }
@@ -184,7 +184,7 @@ button {
         position: absolute;
         top: 45vw;
         right: 0;
-        left: 7%;
+        left: 5%;
     }
     
     #search-bar
@@ -205,10 +205,11 @@ button {
     }
     
     #poster img{
+        margin-top: 10%;
         float: left;
         margin-left: 3%;
-        width: 150%;
-        height: 100%;
+        width: 170%;
+        height: 80%;
     }
     
     #head-data{
@@ -290,6 +291,7 @@ button {
     }
     
     #message h2{
+        margin-left: 2%;
         white-space: nowrap;
         color: #363636;
     }
