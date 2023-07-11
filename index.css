@@ -147,3 +147,156 @@ button {
     margin-right: 1%;
     margin-bottom: 7%;
 }
+
+@media(max-width:480px){
+    header {
+        background-image: url("image/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        color: #FFFFFF;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    header h1 {
+        margin-top: 20%;
+        margin-bottom: 6%;
+        margin-left: 5%;
+        white-space: nowrap;
+        font-size: larger;
+        margin-right: 0;
+    }
+    
+    header h4 {
+        margin-top: 20%;
+        margin-bottom: 6%;
+        margin-left: 30%;
+        white-space: nowrap;
+    
+    }
+        
+    #search-bar {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 45vw;
+        right: 0;
+        left: 7%;
+    }
+    
+    #search-bar
+    input,
+    button {
+        margin: 0;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 5px;
+        border-color: #DFDDDD;
+    }
+
+    #render-movies{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #poster img{
+        float: left;
+        margin-left: 3%;
+        width: 150%;
+        height: 100%;
+    }
+    
+    #head-data{
+        margin-left: 15%;    
+    }
+    #movie-data{
+        display: flex;
+        margin-top: 20%;
+    
+    }
+    
+    
+    #first-line, #second-line, #third-line{
+        display: flex;
+    }
+    
+    #first-line{
+        margin-top: 5%;
+        gap: 2%;
+        margin-right: 2%;
+    }
+    #first-line h1{
+        font-size: larger;
+    }
+    #first-line h4{
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+    
+    #genre, #btn{
+        margin-left: 2%;
+    }
+    
+    #plus-icon{
+        margin-left: 2%;
+        margin-top: 1.6%;
+        width: 10%;
+        height: 10%;
+    }
+    
+    #remove-icon{
+        margin-left: 5%;
+        margin-top: 1.6%;
+        width: 2%;
+        height: 2%;
+    }
+    #second-line img, p {
+        margin-top: 10%;
+    }
+
+    #second-line{
+        margin-right: 3%;
+    }
+    
+    #third-line{
+        color: #6B7280;
+    }
+    
+    #message{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #message h1{
+        margin-top: 15%;
+        color: #DFDDDD;
+    
+    }
+    
+    #below-data{
+        display: flex;
+    }
+    
+    #message img{
+        margin-top: 10%;
+        width: 10%;
+        height: 10%;
+    }
+    
+    #message h2{
+        white-space: nowrap;
+        color: #363636;
+    }
+    
+    #second-line img{
+        width: 8%;
+    }
+
+    
+}
